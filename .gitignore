@@ -1,0 +1,21 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кеши Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Локальная база данных с реальными данными
+taskbox.db
+*.db
+*.sqlite3
+
+# Служебные файлы
+.env
+.idea/
+.vscode/
+.DS_Store
+restart_state.json
